@@ -1,0 +1,3124 @@
+[
+ {
+  "id": "v-soft-01",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est ta pire honte au collège ?"
+ },
+ {
+  "id": "v-soft-02",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le surnom le plus ridicule qu'on t'a déjà donné ?"
+ },
+ {
+  "id": "v-soft-03",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la chose la plus bizarre que tu manges en cachette ?"
+ },
+ {
+  "id": "v-soft-04",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel dessin animé tu regardes encore sans l’avouer ?"
+ },
+ {
+  "id": "v-soft-05",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle chanson tu chantes à fond quand personne ne te voit ?"
+ },
+ {
+  "id": "v-soft-06",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le pire cadeau que tu as reçu en faisant semblant d'adorer ?"
+ },
+ {
+  "id": "v-soft-07",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est ta plus grosse peur irrationnelle ?"
+ },
+ {
+  "id": "v-soft-08",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "À quel âge tu as arrêté de croire au père Noël, et comment tu l’as appris ?"
+ },
+ {
+  "id": "v-soft-09",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel métier tu voulais faire quand tu étais petit ou petite ?"
+ },
+ {
+  "id": "v-soft-10",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la dernière fois que tu as pleuré devant un film ? Lequel ?"
+ },
+ {
+  "id": "v-soft-11",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est ton programme télé honteux préféré ?"
+ },
+ {
+  "id": "v-soft-12",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la pire coupe de cheveux que tu as eue ?"
+ },
+ {
+  "id": "v-soft-13",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tu as déjà fait semblant d’être malade pour éviter quelque chose ? Raconte."
+ },
+ {
+  "id": "v-soft-14",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est l'excuse la plus nulle que tu as utilisée pour annuler un plan ?"
+ },
+ {
+  "id": "v-soft-15",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la dernière chose qui t’a fait rire aux larmes ?"
+ },
+ {
+  "id": "v-soft-16",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle appli tu ouvres en premier le matin ?"
+ },
+ {
+  "id": "v-soft-17",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel talent complètement inutile tu as ?"
+ },
+ {
+  "id": "v-soft-18",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Si tu pouvais échanger ta vie avec quelqu’un ici pendant une journée, qui ce serait ?"
+ },
+ {
+  "id": "v-soft-19",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la chose la plus enfantine que tu fais encore ?"
+ },
+ {
+  "id": "v-soft-20",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est ton pire souvenir de vacances ?"
+ },
+ {
+  "id": "v-soft-21",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tu t’es déjà perdu de façon vraiment ridicule ? Raconte."
+ },
+ {
+  "id": "v-soft-22",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel objet tu as cassé sans jamais l’avouer ?"
+ },
+ {
+  "id": "v-soft-23",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle célébrité tu trouvais irrésistible quand tu étais ado ?"
+ },
+ {
+  "id": "v-soft-24",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le plat que tu rates à chaque fois ?"
+ },
+ {
+  "id": "v-soft-25",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est ta manie la plus bizarre ?"
+ },
+ {
+  "id": "v-soft-26",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tu parles tout seul ? Dans quelles situations ?"
+ },
+ {
+  "id": "v-soft-27",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le pire job ou stage que tu as fait ?"
+ },
+ {
+  "id": "v-soft-28",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est ton mot ou ton expression préférée en ce moment ?"
+ },
+ {
+  "id": "v-soft-29",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la plus grosse bêtise que tu as faite enfant ?"
+ },
+ {
+  "id": "v-soft-30",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le compliment qui t’a le plus marqué ?"
+ },
+ {
+  "id": "v-soft-31",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle première impression tu as eue de la dernière personne de ce groupe que tu as rencontrée ?"
+ },
+ {
+  "id": "v-soft-32",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle habitude d’un de tes parents tu as reprise sans le vouloir ?"
+ },
+ {
+  "id": "v-soft-33",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel film culte tu as fait semblant d’avoir vu ?"
+ },
+ {
+  "id": "v-soft-34",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le pire texto que tu as envoyé à la mauvaise personne ?"
+ },
+ {
+  "id": "v-soft-35",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Si tu devais manger un seul plat toute ta vie, ce serait lequel ?"
+ },
+ {
+  "id": "v-soft-36",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le dernier achat que tu as regretté aussitôt ?"
+ },
+ {
+  "id": "v-soft-37",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tu t’es déjà endormi à un moment vraiment pas approprié ? Où ?"
+ },
+ {
+  "id": "v-soft-38",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est ton record de jours sans te laver les cheveux ?"
+ },
+ {
+  "id": "v-soft-39",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la chose la plus chère que tu as perdue ?"
+ },
+ {
+  "id": "v-soft-40",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel prof t’a le plus marqué, en bien ou en mal ?"
+ },
+ {
+  "id": "v-soft-41",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Qui dans ce groupe a le rire le plus contagieux ?"
+ },
+ {
+  "id": "v-soft-42",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la chose la plus courageuse que tu as faite ?"
+ },
+ {
+  "id": "v-soft-43",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tu as déjà raté un train, un avion ou un bus de façon spectaculaire ? Raconte."
+ },
+ {
+  "id": "v-soft-44",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quelle est la chose la plus inutile que tu collectionnes ou que tu gardes ?"
+ },
+ {
+  "id": "v-soft-45",
+  "type": "verite",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Quel est le rêve le plus absurde dont tu te souviens ?"
+ },
+ {
+  "id": "v-fun-01",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le message le plus gênant que tu as envoyé à un ou une ex ?"
+ },
+ {
+  "id": "v-fun-02",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la chose la plus bizarre que tu as faite pour impressionner quelqu’un ?"
+ },
+ {
+  "id": "v-fun-03",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le pire râteau que tu as pris ?"
+ },
+ {
+  "id": "v-fun-04",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la raison la plus ridicule pour laquelle tu t’es disputé avec quelqu’un ?"
+ },
+ {
+  "id": "v-fun-05",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tu as déjà stalké quelqu’un sur les réseaux jusqu’à des photos d’il y a cinq ans ? Qui ?"
+ },
+ {
+  "id": "v-fun-06",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est l'excuse la plus improbable que tu as inventée pour te sortir d'une situation ?"
+ },
+ {
+  "id": "v-fun-07",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Qui dans ce groupe mourrait en premier dans un film d’horreur, et pourquoi ?"
+ },
+ {
+  "id": "v-fun-08",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Raconte ton pire rendez-vous amoureux."
+ },
+ {
+  "id": "v-fun-09",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la rumeur la plus folle que tu as entendue sur toi ?"
+ },
+ {
+  "id": "v-fun-10",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le contenu le plus nul que tu as regardé jusqu’au bout ?"
+ },
+ {
+  "id": "v-fun-11",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tu as déjà fait semblant de reconnaître quelqu’un qui te disait bonjour ? Raconte."
+ },
+ {
+  "id": "v-fun-12",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Qui dans ce groupe a le pire goût vestimentaire ?"
+ },
+ {
+  "id": "v-fun-13",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la chose la plus bête que tu as crue jusqu’à un âge avancé ?"
+ },
+ {
+  "id": "v-fun-14",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tu t’es déjà fait prendre en train de dire du mal de quelqu’un ? Raconte."
+ },
+ {
+  "id": "v-fun-15",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le pire cadeau que tu as offert ?"
+ },
+ {
+  "id": "v-fun-16",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Si tu devais sortir avec un personnage de dessin animé, ce serait qui ?"
+ },
+ {
+  "id": "v-fun-17",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la chose la plus gênante qui t’est arrivée devant ton crush ?"
+ },
+ {
+  "id": "v-fun-18",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tu as déjà ri à un moment où il ne fallait vraiment pas ? Raconte."
+ },
+ {
+  "id": "v-fun-19",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Qui dans ce groupe ferait le pire colocataire ? Pourquoi ?"
+ },
+ {
+  "id": "v-fun-20",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel surnom secret tu donnes à quelqu’un de ton entourage ?"
+ },
+ {
+  "id": "v-fun-21",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la plus grosse gaffe que tu as faite au travail ou à l’école ?"
+ },
+ {
+  "id": "v-fun-22",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle série tu as dévorée en un week-end sans quitter ton pyjama ?"
+ },
+ {
+  "id": "v-fun-23",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "À quelle célébrité tu enverrais un message si tu étais sûr qu’elle réponde ? Tu lui dirais quoi ?"
+ },
+ {
+  "id": "v-fun-24",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel compte Instagram ou TikTok tu regardes le plus en cachette ?"
+ },
+ {
+  "id": "v-fun-25",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est ton pire souvenir de soirée ?"
+ },
+ {
+  "id": "v-fun-26",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Combien de fois tu réenregistres un vocal avant de l’envoyer ?"
+ },
+ {
+  "id": "v-fun-27",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Qui dans ce groupe survivrait le moins longtemps sur une île déserte ?"
+ },
+ {
+  "id": "v-fun-28",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la chose que tu fais toujours alors que tu sais que c’est ridicule ?"
+ },
+ {
+  "id": "v-fun-29",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tu as déjà fait semblant d’être au téléphone pour éviter quelqu’un ?"
+ },
+ {
+  "id": "v-fun-30",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la pire chose que tu as dite à un parent pendant une dispute ?"
+ },
+ {
+  "id": "v-fun-31",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le dernier mensonge que tu as dit à tes parents ?"
+ },
+ {
+  "id": "v-fun-32",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Si tu pouvais lire dans les pensées d’une personne ici pendant une heure, ce serait qui ?"
+ },
+ {
+  "id": "v-fun-33",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le pire karaoké que tu as fait ?"
+ },
+ {
+  "id": "v-fun-34",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le pire look que tu as assumé en soirée ?"
+ },
+ {
+  "id": "v-fun-35",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Qui dans ce groupe est le plus radin ? Donne un exemple."
+ },
+ {
+  "id": "v-fun-36",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la chose la plus gênante que tes parents ont dite devant un ou une de tes ex ?"
+ },
+ {
+  "id": "v-fun-37",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est la chose la plus bizarre que tu as faite seul chez toi ?"
+ },
+ {
+  "id": "v-fun-38",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel est le pire conseil que tu as donné à quelqu’un, et il l’a suivi ?"
+ },
+ {
+  "id": "v-fun-39",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle photo de toi tu aimerais voir disparaître d’Internet ?"
+ },
+ {
+  "id": "v-fun-40",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Combien de temps tu as déjà ignoré un message exprès ? C’était qui ?"
+ },
+ {
+  "id": "v-fun-41",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Qui dans ce groupe tu appellerais en premier pour t’aider à cacher une bêtise ?"
+ },
+ {
+  "id": "v-fun-42",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quel prénom tu ne donnerais jamais à ton enfant à cause d’un ou une ex ?"
+ },
+ {
+  "id": "v-fun-43",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle est ta technique de drague, même ratée ?"
+ },
+ {
+  "id": "v-fun-44",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Si ta vie était une série, quel serait le titre de l’épisode le plus gênant ?"
+ },
+ {
+  "id": "v-fun-45",
+  "type": "verite",
+  "level": "FUN",
+  "place": "both",
+  "text": "Quelle fausse information tu as répétée à tout le monde avec assurance ?"
+ },
+ {
+  "id": "v-hard-01",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe tu supprimerais de ta vie si tu devais en choisir un ? Pourquoi ?"
+ },
+ {
+  "id": "v-hard-02",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le pire mensonge que tu as dit à quelqu’un ici ?"
+ },
+ {
+  "id": "v-hard-03",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre ta dernière recherche Google à voix haute."
+ },
+ {
+  "id": "v-hard-04",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe tu trouves le plus hypocrite ? Donne un exemple."
+ },
+ {
+  "id": "v-hard-05",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qu’est-ce que tu as déjà dit dans le dos de quelqu’un ici ?"
+ },
+ {
+  "id": "v-hard-06",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel secret d’un ami tu as répété alors que tu avais promis de te taire ?"
+ },
+ {
+  "id": "v-hard-07",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe tu as déjà jalousé, et pour quoi exactement ?"
+ },
+ {
+  "id": "v-hard-08",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tu es encore en contact avec un ou une ex en cachette ? Qui ?"
+ },
+ {
+  "id": "v-hard-09",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la chose la plus cruelle que tu as faite à quelqu’un qui t’aimait ?"
+ },
+ {
+  "id": "v-hard-10",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe a, selon toi, le ou la pire partenaire ? Pourquoi ?"
+ },
+ {
+  "id": "v-hard-11",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qu’est-ce que tu reproches en secret à ton ou ta meilleure amie ?"
+ },
+ {
+  "id": "v-hard-12",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "As-tu déjà trompé quelqu’un, ou été tenté de le faire ? Raconte."
+ },
+ {
+  "id": "v-hard-13",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le pire truc que tu as fait pour de l’argent ?"
+ },
+ {
+  "id": "v-hard-14",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui ici tu n’inviterais pas à ton mariage ?"
+ },
+ {
+  "id": "v-hard-15",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la vraie raison de ta dernière rupture ?"
+ },
+ {
+  "id": "v-hard-16",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le moment où tu as eu le plus honte de toi devant ce groupe ?"
+ },
+ {
+  "id": "v-hard-17",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Classe les personnes ici de la plus fiable à la moins fiable."
+ },
+ {
+  "id": "v-hard-18",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe a déjà été ton crush, même cinq minutes ?"
+ },
+ {
+  "id": "v-hard-19",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la chose la plus méchante que tu as pensée de quelqu’un ici ce mois-ci ?"
+ },
+ {
+  "id": "v-hard-20",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le pire truc que tu as dit à un ou une partenaire pendant une dispute ?"
+ },
+ {
+  "id": "v-hard-21",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tu as déjà fouillé le téléphone d’un ou une partenaire ? Qu’as-tu trouvé ?"
+ },
+ {
+  "id": "v-hard-22",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel secret tes parents ne doivent jamais apprendre ?"
+ },
+ {
+  "id": "v-hard-23",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la pire chose que tu as volée ?"
+ },
+ {
+  "id": "v-hard-24",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe on aime le moins, selon toi, et pourquoi ?"
+ },
+ {
+  "id": "v-hard-25",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle amitié tu as sabotée, et comment ?"
+ },
+ {
+  "id": "v-hard-26",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Ton dernier « je suis malade » au travail ou en cours, c’était vrai ?"
+ },
+ {
+  "id": "v-hard-27",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel compliment tu as fait à quelqu’un ici sans le penser ?"
+ },
+ {
+  "id": "v-hard-28",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le dernier truc que tu as fait uniquement pour rendre quelqu’un jaloux ?"
+ },
+ {
+  "id": "v-hard-29",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la pire chose que tu as faite en soirée et que personne ici ne sait ?"
+ },
+ {
+  "id": "v-hard-30",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "À qui ici tu ne prêterais jamais d’argent ? Pourquoi ?"
+ },
+ {
+  "id": "v-hard-31",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "As-tu déjà fait semblant d’être ami avec quelqu’un ici par intérêt ?"
+ },
+ {
+  "id": "v-hard-32",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le ghosting dont tu es le moins fier ?"
+ },
+ {
+  "id": "v-hard-33",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tu as déjà eu des sentiments pour le ou la partenaire d’un ami ?"
+ },
+ {
+  "id": "v-hard-34",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel secret de quelqu’un ici as-tu découvert sans qu’il le sache ?"
+ },
+ {
+  "id": "v-hard-35",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qu’est-ce que tu n’as jamais pardonné à quelqu’un dans ce groupe ?"
+ },
+ {
+  "id": "v-hard-36",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la chose que tu caches à tout le monde ici ?"
+ },
+ {
+  "id": "v-hard-37",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle dette (argent ou service) tu n’as jamais rendue à quelqu’un ici ?"
+ },
+ {
+  "id": "v-hard-38",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui ici te donne les pires conseils, et lequel était le pire ?"
+ },
+ {
+  "id": "v-hard-39",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Avec qui ici tu passerais le moins volontiers une semaine de vacances ?"
+ },
+ {
+  "id": "v-hard-40",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est le mensonge que tu entretiens depuis le plus longtemps ?"
+ },
+ {
+  "id": "v-hard-41",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle est la chose la plus égoïste que tu as faite cette année ?"
+ },
+ {
+  "id": "v-hard-42",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quelle conversation tu effacerais avant de prêter ton téléphone à quelqu’un ici ?"
+ },
+ {
+  "id": "v-hard-43",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "De qui ici tu as déjà eu honte en public ? Pourquoi ?"
+ },
+ {
+  "id": "v-hard-44",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Quel est ton plus gros complexe, que personne ici ne soupçonne ?"
+ },
+ {
+  "id": "v-hard-45",
+  "type": "verite",
+  "level": "HARD",
+  "place": "both",
+  "text": "Qui dans ce groupe se croit drôle alors qu’il ne l’est pas ?"
+ },
+ {
+  "id": "v-x18-01",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Avec qui dans ce groupe tu passerais une nuit si personne n’en savait rien ?"
+ },
+ {
+  "id": "v-x18-02",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Ton fantasme que tu n’as jamais avoué à personne ?"
+ },
+ {
+  "id": "v-x18-03",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel est l’endroit le plus insolite où tu as embrassé quelqu’un ?"
+ },
+ {
+  "id": "v-x18-04",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Raconte ta première fois en trois mots."
+ },
+ {
+  "id": "v-x18-05",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qui dans ce groupe embrasse le mieux, selon toi ou selon les rumeurs ?"
+ },
+ {
+  "id": "v-x18-06",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle est la chose la plus osée que tu as faite en public ?"
+ },
+ {
+  "id": "v-x18-07",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel est ton fantasme avec une célébrité ?"
+ },
+ {
+  "id": "v-x18-08",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà été attiré par quelqu’un ici alors que tu étais en couple ?"
+ },
+ {
+  "id": "v-x18-09",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle est ta pire expérience au lit, sans détails crus ?"
+ },
+ {
+  "id": "v-x18-10",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel est le message le plus chaud que tu as envoyé ? À qui ?"
+ },
+ {
+  "id": "v-x18-11",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qui dans ce groupe a le plus de charme, selon toi ?"
+ },
+ {
+  "id": "v-x18-12",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Tu as déjà eu un coup d’un soir que tu regrettes ? Raconte."
+ },
+ {
+  "id": "v-x18-13",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel détail te fait craquer instantanément chez quelqu’un ?"
+ },
+ {
+  "id": "v-x18-14",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà fait un rêve chaud avec quelqu’un ici ? Qui ?"
+ },
+ {
+  "id": "v-x18-15",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Avec combien de personnes tu es allé plus loin qu’un baiser ?"
+ },
+ {
+  "id": "v-x18-16",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Ton meilleur souvenir de nuit, sans détails crus ?"
+ },
+ {
+  "id": "v-x18-17",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qu’est-ce que tu n’as jamais osé demander à un ou une partenaire ?"
+ },
+ {
+  "id": "v-x18-18",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel est le pire endroit où tu t’es fait surprendre dans un moment intime ?"
+ },
+ {
+  "id": "v-x18-19",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà fait semblant d’être intéressé par quelqu’un juste pour ne pas finir la soirée seul ?"
+ },
+ {
+  "id": "v-x18-20",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle tenue te rend irrésistible, selon toi ?"
+ },
+ {
+  "id": "v-x18-21",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qui dans ce groupe est le plus coquin en secret ?"
+ },
+ {
+  "id": "v-x18-22",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Ton pire et ton meilleur match sur une appli de rencontre ?"
+ },
+ {
+  "id": "v-x18-23",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà menti sur ton nombre de partenaires ? Dans quel sens ?"
+ },
+ {
+  "id": "v-x18-24",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel est le compliment le plus sexy qu’on t’a fait ?"
+ },
+ {
+  "id": "v-x18-25",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà flirté avec quelqu’un uniquement pour obtenir quelque chose ?"
+ },
+ {
+  "id": "v-x18-26",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qu’est-ce qui te refroidit instantanément chez quelqu’un ?"
+ },
+ {
+  "id": "v-x18-27",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Plutôt lumière allumée ou éteinte ? Pourquoi ?"
+ },
+ {
+  "id": "v-x18-28",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà eu une aventure avec un collègue ou un camarade de classe ?"
+ },
+ {
+  "id": "v-x18-29",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle est la plus grande différence d’âge que tu as eue avec quelqu’un que tu as embrassé ?"
+ },
+ {
+  "id": "v-x18-30",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle est ta phrase de drague qui a le mieux marché ?"
+ },
+ {
+  "id": "v-x18-31",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Tu préfères séduire ou être séduit ? Pourquoi ?"
+ },
+ {
+  "id": "v-x18-32",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qui ici pourrait te faire craquer s’il ou elle faisait le premier pas ?"
+ },
+ {
+  "id": "v-x18-33",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel film ou quelle série t’a le plus troublé ?"
+ },
+ {
+  "id": "v-x18-34",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quel est le surnom le plus gênant qu’un ou une partenaire t’a donné ?"
+ },
+ {
+  "id": "v-x18-35",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "As-tu déjà eu un faible pour le ou la partenaire de quelqu’un ici ?"
+ },
+ {
+  "id": "v-x18-36",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Où est-ce que tu adores qu’on t’embrasse ?"
+ },
+ {
+  "id": "v-x18-37",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle chanson te met tout de suite dans l’ambiance ?"
+ },
+ {
+  "id": "v-x18-38",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "À qui ici tu enverrais un message à deux heures du matin ?"
+ },
+ {
+  "id": "v-x18-39",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle est la chose la plus folle que tu ferais pour une nuit avec ton crush absolu ?"
+ },
+ {
+  "id": "v-x18-40",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Un plan à trois : jamais, peut-être ou déjà ?"
+ },
+ {
+  "id": "v-x18-41",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Si tu pouvais revivre une seule nuit de ta vie, laquelle ?"
+ },
+ {
+  "id": "v-x18-42",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Quelle est la pensée la moins sage que tu as eue sur quelqu’un ici ?"
+ },
+ {
+  "id": "v-x18-43",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Raconte le pire rendez-vous qui a quand même fini chez toi."
+ },
+ {
+  "id": "v-x18-44",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Ton premier baiser : avec qui, où, et c’était comment ?"
+ },
+ {
+  "id": "v-x18-45",
+  "type": "verite",
+  "level": "+18",
+  "place": "both",
+  "text": "Qui dans ce groupe tu imagines le plus entreprenant ?"
+ },
+ {
+  "id": "a-soft-01",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chante le refrain de la dernière chanson que tu as écoutée."
+ },
+ {
+  "id": "a-soft-02",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais ta meilleure imitation d’un présentateur météo qui annonce une tempête."
+ },
+ {
+  "id": "a-soft-03",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Parle avec un accent imaginaire jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-soft-04",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Raconte ta journée d’hier comme un commentateur sportif."
+ },
+ {
+  "id": "a-soft-05",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais 10 squats en récitant l’alphabet."
+ },
+ {
+  "id": "a-soft-06",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Montre une photo de toi enfant, ou décris-la si tu n’en as pas sur toi."
+ },
+ {
+  "id": "a-soft-07",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais une déclaration d’amour à ton plat préféré."
+ },
+ {
+  "id": "a-soft-08",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais un compliment sincère à chaque joueur."
+ },
+ {
+  "id": "a-soft-09",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Danse 20 secondes sans musique."
+ },
+ {
+  "id": "a-soft-10",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais deviner un film uniquement en mimant."
+ },
+ {
+  "id": "a-soft-11",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Parle comme un robot jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-soft-12",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Pousse ton plus beau cri de Tarzan."
+ },
+ {
+  "id": "a-soft-13",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Invente un slogan publicitaire pour la personne de ton choix dans le groupe."
+ },
+ {
+  "id": "a-soft-14",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Imite ton animal préféré pendant 15 secondes."
+ },
+ {
+  "id": "a-soft-15",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Récite l’alphabet à l’envers le plus vite possible."
+ },
+ {
+  "id": "a-soft-16",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Essaie de toucher ton nez avec ta langue pendant 10 secondes."
+ },
+ {
+  "id": "a-soft-17",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Raconte une blague. Si personne ne rit, tu en racontes une autre."
+ },
+ {
+  "id": "a-soft-18",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Raconte le résumé de ton film préféré avec la voix d’un méchant de dessin animé."
+ },
+ {
+  "id": "a-soft-19",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Prends la pose de mannequin la plus ridicule possible et tiens-la 15 secondes."
+ },
+ {
+  "id": "a-soft-20",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chante « Joyeux anniversaire » en chuchotant, comme si c’était un secret d’État."
+ },
+ {
+  "id": "a-soft-21",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Présente-toi comme si tu passais un entretien pour devenir super-héros."
+ },
+ {
+  "id": "a-soft-22",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais une pub de 20 secondes pour l’objet le plus proche de toi."
+ },
+ {
+  "id": "a-soft-23",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Montre ton fond d’écran et explique pourquoi tu l’as choisi."
+ },
+ {
+  "id": "a-soft-24",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tiens 15 secondes de gainage pendant que les autres essaient de te faire rire."
+ },
+ {
+  "id": "a-soft-25",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Parle uniquement en posant des questions jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-soft-26",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais ta meilleure grimace et garde-la pendant que tout le monde compte jusqu’à 10."
+ },
+ {
+  "id": "a-soft-27",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chante le générique d’un dessin animé de ton enfance."
+ },
+ {
+  "id": "a-soft-28",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Invente un poème de quatre vers sur la personne de ton choix."
+ },
+ {
+  "id": "a-soft-29",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Montre tes émojis les plus utilisés et invente une histoire avec."
+ },
+ {
+  "id": "a-soft-30",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Imite trois bruits du quotidien, les autres devinent lesquels."
+ },
+ {
+  "id": "a-soft-31",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Fais un discours de remerciement comme si tu venais de gagner un Oscar."
+ },
+ {
+  "id": "a-soft-32",
+  "type": "action",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Essaie de jongler avec deux objets incassables pendant 15 secondes."
+ },
+ {
+  "id": "a-soft-33",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Échange un vêtement (veste, chaussette, bonnet) avec le joueur à ta gauche jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-soft-34",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Raconte une histoire à deux voix avec le joueur à ta droite, une phrase chacun, pendant 30 secondes."
+ },
+ {
+  "id": "a-soft-35",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Apprends un pas de danse au joueur à ta gauche en 30 secondes."
+ },
+ {
+  "id": "a-soft-36",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Fais le tour de la table en serrant la main de chacun comme un homme politique en campagne."
+ },
+ {
+  "id": "a-soft-37",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Traverse la pièce comme un mannequin sur un podium."
+ },
+ {
+  "id": "a-soft-38",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Dessine le portrait de la personne en face de toi en 30 secondes, les yeux fermés."
+ },
+ {
+  "id": "a-soft-39",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Invente un check original avec chaque joueur."
+ },
+ {
+  "id": "a-soft-40",
+  "type": "action",
+  "level": "SOFT",
+  "place": "presentiel",
+  "text": "Assieds-toi par terre jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-soft-41",
+  "type": "action",
+  "level": "SOFT",
+  "place": "distance",
+  "text": "Approche ton visage le plus près possible de la caméra et raconte un secret banal en chuchotant."
+ },
+ {
+  "id": "a-soft-42",
+  "type": "action",
+  "level": "SOFT",
+  "place": "distance",
+  "text": "Fais visiter la pièce où tu es comme un agent immobilier très enthousiaste."
+ },
+ {
+  "id": "a-soft-43",
+  "type": "action",
+  "level": "SOFT",
+  "place": "distance",
+  "text": "Va chercher un objet jaune en moins de 30 secondes et montre-le à la caméra."
+ },
+ {
+  "id": "a-soft-44",
+  "type": "action",
+  "level": "SOFT",
+  "place": "distance",
+  "text": "Change ton nom dans la visio pour celui que le groupe choisit, jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-soft-45",
+  "type": "action",
+  "level": "SOFT",
+  "place": "distance",
+  "text": "Fais semblant que ta connexion bugue en restant figé 15 secondes au milieu d’une phrase."
+ },
+ {
+  "id": "a-fun-01",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Imite quelqu’un du groupe jusqu’à ce que les autres devinent qui c’est."
+ },
+ {
+  "id": "a-fun-02",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Lis à voix haute la dernière note de ton téléphone."
+ },
+ {
+  "id": "a-fun-03",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Envoie un vocal de 10 secondes à la troisième personne de tes conversations en chantant « Je t’aime » façon opéra."
+ },
+ {
+  "id": "a-fun-04",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Imite un influenceur qui présente une routine du matin absurde."
+ },
+ {
+  "id": "a-fun-05",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Parle avec une voix de bébé jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-06",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Montre ta photo la plus ratée de ta galerie."
+ },
+ {
+  "id": "a-fun-07",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Commente ce que fait la personne de ton choix comme dans un documentaire animalier."
+ },
+ {
+  "id": "a-fun-08",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Mets la chanson choisie par le groupe en sonnerie jusqu’à demain."
+ },
+ {
+  "id": "a-fun-09",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Fais le défilé de ta tenue actuelle en la décrivant comme de la haute couture."
+ },
+ {
+  "id": "a-fun-10",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Chante le refrain d’une chanson choisie par le groupe en remplaçant les paroles par « miaou »."
+ },
+ {
+  "id": "a-fun-11",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Fais un rap improvisé de 20 secondes sur la personne qui a joué juste avant toi."
+ },
+ {
+  "id": "a-fun-12",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Raconte ta rencontre avec la personne de ton choix ici comme une comédie romantique."
+ },
+ {
+  "id": "a-fun-13",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Imite le prof qui t’a le plus marqué."
+ },
+ {
+  "id": "a-fun-14",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Fais le guide touristique de ton propre visage."
+ },
+ {
+  "id": "a-fun-15",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Appelle un ami hors du groupe et chante-lui « Joyeux anniversaire », même si ce n’est pas le jour."
+ },
+ {
+  "id": "a-fun-16",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Lis ta dernière conversation avec un de tes parents à voix haute, en jouant les deux rôles."
+ },
+ {
+  "id": "a-fun-17",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Fais ton meilleur twerk pendant 10 secondes."
+ },
+ {
+  "id": "a-fun-18",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Fais un tutoriel maquillage imaginaire sur ton visage, en commentant comme une star de YouTube."
+ },
+ {
+  "id": "a-fun-19",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Mime une scène de film culte, les autres doivent deviner."
+ },
+ {
+  "id": "a-fun-20",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Invente une danse pour ton prénom et apprends-la au groupe."
+ },
+ {
+  "id": "a-fun-21",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Présente un journal télévisé de 20 secondes qui annonce les potins du groupe."
+ },
+ {
+  "id": "a-fun-22",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Parle uniquement en rimes jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-23",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Montre les cinq dernières personnes que tu as appelées et raconte pourquoi."
+ },
+ {
+  "id": "a-fun-24",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Fais 30 secondes de stand-up sur ta propre vie amoureuse."
+ },
+ {
+  "id": "a-fun-25",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Raconte ton dernier repas comme la bande-annonce d’un film d’action."
+ },
+ {
+  "id": "a-fun-26",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Montre la dernière capture d’écran de ton téléphone et explique-la."
+ },
+ {
+  "id": "a-fun-27",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Joue une scène de rupture dramatique avec ton téléphone comme partenaire."
+ },
+ {
+  "id": "a-fun-28",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Pousse le cri de guerre d’une tribu imaginaire que tu viens d’inventer."
+ },
+ {
+  "id": "a-fun-29",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Imite ton réveil le matin en version film d’action."
+ },
+ {
+  "id": "a-fun-30",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Le groupe choisit un mot : tu dois le placer naturellement dans tes trois prochaines phrases."
+ },
+ {
+  "id": "a-fun-31",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Laisse le joueur à ta droite choisir ta façon de marcher, et garde-la jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-32",
+  "type": "action",
+  "level": "FUN",
+  "place": "both",
+  "text": "Raconte une histoire d’horreur de 30 secondes qui commence par « Il était une fois dans ce groupe… »."
+ },
+ {
+  "id": "a-fun-33",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Joue le serveur pour tout le groupe : prends les commandes de boissons sans alcool avec un accent très chic."
+ },
+ {
+  "id": "a-fun-34",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Fais le tour de la pièce à quatre pattes en aboyant."
+ },
+ {
+  "id": "a-fun-35",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Mange une cuillère d’un condiment choisi par le groupe (rien de très épicé, pas d’alcool)."
+ },
+ {
+  "id": "a-fun-36",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Mets tes chaussettes sur tes mains jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-37",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Laisse le groupe te faire une coiffure avec ce qui traîne dans la pièce, et garde-la jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-38",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Fais une chorégraphie synchronisée de 15 secondes avec le joueur à ta gauche."
+ },
+ {
+  "id": "a-fun-39",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Reste en statue dans la pose choisie par le joueur à ta gauche jusqu’à ce que quelqu’un réussisse à te faire rire."
+ },
+ {
+  "id": "a-fun-40",
+  "type": "action",
+  "level": "FUN",
+  "place": "presentiel",
+  "text": "Garde un objet en équilibre sur ta tête jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-41",
+  "type": "action",
+  "level": "FUN",
+  "place": "distance",
+  "text": "Mets le filtre ou l’arrière-plan le plus ridicule de ta visio jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-fun-42",
+  "type": "action",
+  "level": "FUN",
+  "place": "distance",
+  "text": "Fais une démonstration de yoga très sérieuse devant ta caméra pendant 20 secondes."
+ },
+ {
+  "id": "a-fun-43",
+  "type": "action",
+  "level": "FUN",
+  "place": "distance",
+  "text": "Reviens devant la caméra déguisé avec trois objets de chez toi en moins d’une minute."
+ },
+ {
+  "id": "a-fun-44",
+  "type": "action",
+  "level": "FUN",
+  "place": "distance",
+  "text": "Fais un concert en playback devant ta caméra avec une brosse à cheveux comme micro."
+ },
+ {
+  "id": "a-fun-45",
+  "type": "action",
+  "level": "FUN",
+  "place": "distance",
+  "text": "Montre à la caméra le contenu de ton frigo et commente-le comme un chef étoilé."
+ },
+ {
+  "id": "a-hard-01",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Lis à voix haute les cinq derniers messages de ta conversation la plus récente."
+ },
+ {
+  "id": "a-hard-02",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre les dix dernières photos de ta galerie, sans en sauter aucune."
+ },
+ {
+  "id": "a-hard-03",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Lis à voix haute ta dernière conversation avec ton ou ta ex (ou ton dernier crush)."
+ },
+ {
+  "id": "a-hard-04",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Appelle en haut-parleur la troisième personne de ton journal d’appels et fais-lui un compliment très appuyé sans expliquer pourquoi."
+ },
+ {
+  "id": "a-hard-05",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Fais écouter à tout le monde le dernier vocal que tu as envoyé."
+ },
+ {
+  "id": "a-hard-06",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Envoie à ton ou ta ex (ou ton dernier crush) un message choisi par le groupe, lu à voix haute avant l’envoi."
+ },
+ {
+  "id": "a-hard-07",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre ton historique YouTube ou TikTok des trois derniers jours."
+ },
+ {
+  "id": "a-hard-08",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Dis à chaque joueur un défaut que tu lui trouves, sans te justifier."
+ },
+ {
+  "id": "a-hard-09",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Classe à voix haute les joueurs du plus drôle au moins drôle."
+ },
+ {
+  "id": "a-hard-10",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Imite la personne de ton choix ici en exagérant ses tics et ses manies pendant 30 secondes."
+ },
+ {
+  "id": "a-hard-11",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Appelle un de tes parents, dis-lui « Il faut que je t’avoue quelque chose… » puis raconte un vrai petit secret."
+ },
+ {
+  "id": "a-hard-12",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre ta playlist la plus honteuse et fais écouter 10 secondes du pire morceau."
+ },
+ {
+  "id": "a-hard-13",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre les cinq dernières personnes que tu as regardées sur Instagram ou un autre réseau."
+ },
+ {
+  "id": "a-hard-14",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre au groupe tes trois derniers achats en ligne."
+ },
+ {
+  "id": "a-hard-15",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Raconte en détail ton dernier rendez-vous amoureux, sans rien embellir."
+ },
+ {
+  "id": "a-hard-16",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Lis à voix haute ta conversation avec la personne de ton choix ici, en remontant jusqu’à ce que le groupe dise stop."
+ },
+ {
+  "id": "a-hard-17",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Envoie un message à quelqu’un à qui tu n’as pas parlé depuis plus d’un an pour lui dire que tu as rêvé de lui ou d’elle."
+ },
+ {
+  "id": "a-hard-18",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Dis à la personne de ton choix ici ce que tu n’as jamais osé lui dire."
+ },
+ {
+  "id": "a-hard-19",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Lis à voix haute la dernière conversation où tu as parlé de quelqu’un ici."
+ },
+ {
+  "id": "a-hard-20",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre ton temps d’écran de la semaine et tes applis les plus utilisées."
+ },
+ {
+  "id": "a-hard-21",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Fais un compliment puis une critique honnête à chaque joueur."
+ },
+ {
+  "id": "a-hard-22",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Le groupe choisit quelqu’un dans tes contacts : appelle-le et tiens une minute de conversation en chantant."
+ },
+ {
+  "id": "a-hard-23",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Ouvre tes mails et lis à voix haute l’objet des dix derniers."
+ },
+ {
+  "id": "a-hard-24",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Laisse le groupe choisir une de tes conversations et lis à voix haute le tout premier message."
+ },
+ {
+  "id": "a-hard-25",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Raconte la dernière fois que tu as pleuré, en détail, sans faire de blague."
+ },
+ {
+  "id": "a-hard-26",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Raconte ta pire honte amoureuse en imitant toutes les personnes impliquées."
+ },
+ {
+  "id": "a-hard-27",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Lis à voix haute ton dernier échange sur une appli de rencontre ou ton dernier message privé sur Instagram."
+ },
+ {
+  "id": "a-hard-28",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Révèle le surnom que tu donnes dans ta tête à chaque personne ici."
+ },
+ {
+  "id": "a-hard-29",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Montre comment chaque personne ici est enregistrée dans tes contacts."
+ },
+ {
+  "id": "a-hard-30",
+  "type": "action",
+  "level": "HARD",
+  "place": "both",
+  "text": "Dis quel joueur tu embaucherais en dernier pour un poste important, et pourquoi."
+ },
+ {
+  "id": "a-hard-31",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Donne ton téléphone au joueur à ta gauche : il envoie le message de son choix à la personne de son choix dans tes contacts (il doit le lire à voix haute avant d’envoyer)."
+ },
+ {
+  "id": "a-hard-32",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Laisse le joueur à ta droite parcourir ta galerie photo pendant 30 secondes."
+ },
+ {
+  "id": "a-hard-33",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Pose ton téléphone au centre, écran visible : pendant les trois prochains tours, toutes tes notifications sont lues à voix haute."
+ },
+ {
+  "id": "a-hard-34",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Le joueur à ta gauche fouille ton sac (ou tes poches) et commente tout ce qu’il trouve."
+ },
+ {
+  "id": "a-hard-35",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Tour de table : chaque joueur te pose une question, tu réponds sans réfléchir et sans mentir."
+ },
+ {
+  "id": "a-hard-36",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Donne ton téléphone au joueur à ta gauche : il renomme trois de tes contacts comme il veut."
+ },
+ {
+  "id": "a-hard-37",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Mets-toi à genoux devant la personne de ton choix et fais-lui une demande en mariage très sérieuse."
+ },
+ {
+  "id": "a-hard-38",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Laisse le joueur à ta gauche répondre à ta place au prochain message que tu reçois."
+ },
+ {
+  "id": "a-hard-39",
+  "type": "action",
+  "level": "HARD",
+  "place": "presentiel",
+  "text": "Le joueur à ta droite choisit quelqu’un dans tes contacts : envoie-lui un vocal avec une déclaration d’amitié très sincère."
+ },
+ {
+  "id": "a-hard-40",
+  "type": "action",
+  "level": "HARD",
+  "place": "distance",
+  "text": "Partage ton écran et montre ton bureau ou ta galerie pendant 20 secondes, sans rien fermer avant."
+ },
+ {
+  "id": "a-hard-41",
+  "type": "action",
+  "level": "HARD",
+  "place": "distance",
+  "text": "Partage ton écran sur ton historique de navigation des dernières 24 heures."
+ },
+ {
+  "id": "a-hard-42",
+  "type": "action",
+  "level": "HARD",
+  "place": "distance",
+  "text": "Laisse le groupe choisir une conversation que tu dois afficher en partage d’écran pendant 15 secondes."
+ },
+ {
+  "id": "a-hard-43",
+  "type": "action",
+  "level": "HARD",
+  "place": "distance",
+  "text": "Ouvre ton placard devant la caméra : le groupe choisit le vêtement le plus gênant, que tu portes jusqu’à ton prochain tour."
+ },
+ {
+  "id": "a-hard-44",
+  "type": "action",
+  "level": "HARD",
+  "place": "distance",
+  "text": "Passe un appel vidéo surprise à un proche pendant la visio et présente-lui le groupe."
+ },
+ {
+  "id": "a-x18-01",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Fais ta danse la plus sensuelle pendant 20 secondes."
+ },
+ {
+  "id": "a-x18-02",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Murmure la phrase de drague la plus chaude que tu connais."
+ },
+ {
+  "id": "a-x18-03",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Envoie un message de drague à la personne de ton choix ici, puis lis-le à voix haute."
+ },
+ {
+  "id": "a-x18-04",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Drague la personne de ton choix ici pendant 30 secondes avec tes meilleures techniques."
+ },
+ {
+  "id": "a-x18-05",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Lis à voix haute le message le plus séduisant que tu as reçu."
+ },
+ {
+  "id": "a-x18-06",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Mime ta technique de séduction en soirée, du premier regard au premier pas."
+ },
+ {
+  "id": "a-x18-07",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Écris ton fantasme en une phrase sur ton téléphone sans le montrer : les autres ont cinq questions fermées pour le deviner."
+ },
+ {
+  "id": "a-x18-08",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Imite ta tête quand tu essaies d’être sexy, puis ta tête quand ça ne marche pas."
+ },
+ {
+  "id": "a-x18-09",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Fais une lecture sensuelle de la liste des ingrédients d’un produit qui traîne."
+ },
+ {
+  "id": "a-x18-10",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Dis à chaque personne ici ce que tu trouves le plus séduisant chez elle."
+ },
+ {
+  "id": "a-x18-11",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Envoie « Je repense à notre dernière soirée… » à la dernière personne avec qui tu as flirté, et montre sa réponse."
+ },
+ {
+  "id": "a-x18-12",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Raconte ton meilleur baiser comme une scène de film romantique, en mimant."
+ },
+ {
+  "id": "a-x18-13",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Enlève un accessoire (montre, bague, chaussette…) de la façon la plus sexy possible."
+ },
+ {
+  "id": "a-x18-14",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Choisis quelqu’un ici et décris votre rendez-vous idéal, de l’apéro jusqu’au dernier regard."
+ },
+ {
+  "id": "a-x18-15",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Fais un clin d’œil séducteur à chaque personne ici, une par une, sans rire."
+ },
+ {
+  "id": "a-x18-16",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Chante une chanson d’amour en la dédiant à la personne de ton choix ici, en la regardant."
+ },
+ {
+  "id": "a-x18-17",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Montre au groupe la photo de profil de ton dernier crush et explique ce qui t’a plu."
+ },
+ {
+  "id": "a-x18-18",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Pousse ton soupir le plus langoureux."
+ },
+ {
+  "id": "a-x18-19",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Mime ce que tu fais quand tu reçois un message de ton crush."
+ },
+ {
+  "id": "a-x18-20",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Invente à voix haute la description de ton profil idéal sur une appli de rencontre."
+ },
+ {
+  "id": "a-x18-21",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Fais la voix off d’un documentaire sur une scène de séduction imaginaire entre deux joueurs (avec leur accord)."
+ },
+ {
+  "id": "a-x18-22",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Révèle le dernier compliment osé que tu as fait, et à qui."
+ },
+ {
+  "id": "a-x18-23",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Imite la façon dont la personne de ton choix ici drague, selon toi."
+ },
+ {
+  "id": "a-x18-24",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Tourne une fausse pub de parfum avec toi en vedette, regard intense et voix grave compris."
+ },
+ {
+  "id": "a-x18-25",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Montre ta meilleure façon de dire « bonsoir » à quelqu’un qui te plaît, en trois versions de plus en plus intenses."
+ },
+ {
+  "id": "a-x18-26",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Embrasse le dos de ta main comme si c’était ton crush, pendant 10 secondes, sous les yeux de tous."
+ },
+ {
+  "id": "a-x18-27",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Dis à voix haute qui dans ce groupe tu embrasserais, épouserais et éviterais."
+ },
+ {
+  "id": "a-x18-28",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Présente ta candidature pour devenir le ou la partenaire idéal de la personne de ton choix ici."
+ },
+ {
+  "id": "a-x18-29",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Raconte la pire tentative de séduction que tu as subie, en imitant la personne."
+ },
+ {
+  "id": "a-x18-30",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Montre la photo de toi où tu te trouves le plus séduisant (tenue habillée)."
+ },
+ {
+  "id": "a-x18-31",
+  "type": "action",
+  "level": "+18",
+  "place": "both",
+  "text": "Fais 10 pompes en regardant la personne de ton choix dans les yeux."
+ },
+ {
+  "id": "a-x18-32",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Fais un slow de 30 secondes avec la personne de ton choix (si elle accepte)."
+ },
+ {
+  "id": "a-x18-33",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Fais un bisou sur la joue à la personne que tu trouves la plus charmante ici (si elle accepte)."
+ },
+ {
+  "id": "a-x18-34",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Assieds-toi sur les genoux de la personne de ton choix pendant un tour complet (si elle accepte)."
+ },
+ {
+  "id": "a-x18-35",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Chuchote un compliment osé à l’oreille de la personne de ton choix (si elle accepte)."
+ },
+ {
+  "id": "a-x18-36",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Masse les épaules de la personne de ton choix pendant 30 secondes (si elle accepte)."
+ },
+ {
+  "id": "a-x18-37",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Danse collé-serré 20 secondes avec le joueur à ta gauche (s’il ou elle accepte)."
+ },
+ {
+  "id": "a-x18-38",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Fais un câlin de 15 secondes à la personne avec qui tu as le plus d’alchimie ici (si elle accepte)."
+ },
+ {
+  "id": "a-x18-39",
+  "type": "action",
+  "level": "+18",
+  "place": "presentiel",
+  "text": "Regarde la personne de ton choix dans les yeux pendant 30 secondes, à 20 cm de son visage, sans rire."
+ },
+ {
+  "id": "a-x18-40",
+  "type": "action",
+  "level": "+18",
+  "place": "distance",
+  "text": "Approche-toi lentement de la caméra avec un regard de braise, jusqu’à ce que ton visage remplisse l’écran."
+ },
+ {
+  "id": "a-x18-41",
+  "type": "action",
+  "level": "+18",
+  "place": "distance",
+  "text": "Tamise la lumière autour de toi et dis bonsoir au groupe avec ta voix la plus séduisante."
+ },
+ {
+  "id": "a-x18-42",
+  "type": "action",
+  "level": "+18",
+  "place": "distance",
+  "text": "Fais un « rendez-vous en visio » de 30 secondes avec la personne de ton choix, comme si vous étiez seuls."
+ },
+ {
+  "id": "a-x18-43",
+  "type": "action",
+  "level": "+18",
+  "place": "distance",
+  "text": "Mets ta plus belle tenue de soirée en moins de deux minutes et reviens faire une entrée remarquée devant la caméra."
+ },
+ {
+  "id": "a-x18-44",
+  "type": "action",
+  "level": "+18",
+  "place": "distance",
+  "text": "Anime une émission de rencontres en présentant chaque participant de la visio comme un candidat irrésistible."
+ },
+ {
+  "id": "t-soft-01",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait semblant de rire à une blague nulle de quelqu’un ici, levez la main."
+ },
+ {
+  "id": "t-soft-02",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chacun dit le dernier film qu’il a vu, en un seul mot."
+ },
+ {
+  "id": "t-soft-03",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà oublié l’anniversaire de quelqu’un ici, levez la main."
+ },
+ {
+  "id": "t-soft-04",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "À trois, tout le monde pointe la personne la plus souvent en retard du groupe."
+ },
+ {
+  "id": "t-soft-05",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chacun dit son plat préféré en moins de trois secondes, sans hésiter."
+ },
+ {
+  "id": "t-soft-06",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà appelé un prof « maman » ou « papa », levez la main."
+ },
+ {
+  "id": "t-soft-07",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tout le monde fredonne en même temps la première chanson qui lui vient, sans se concerter."
+ },
+ {
+  "id": "t-soft-08",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "À trois, tout le monde montre le dernier émoji qu’il a envoyé."
+ },
+ {
+  "id": "t-soft-09",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà menti sur leur âge, levez la main."
+ },
+ {
+  "id": "t-soft-10",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chacun à son tour donne un mot pour décrire la soirée, sans répéter celui d’un autre."
+ },
+ {
+  "id": "t-soft-11",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne la plus gourmande du groupe."
+ },
+ {
+  "id": "t-soft-12",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui dorment encore avec une peluche, levez la main."
+ },
+ {
+  "id": "t-soft-13",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tout le monde applaudit pendant 10 secondes la dernière personne qui a joué."
+ },
+ {
+  "id": "t-soft-14",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chacun dit en un mot ce qu’il emporterait sur une île déserte."
+ },
+ {
+  "id": "t-soft-15",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont chanté sous la douche cette semaine, levez la main."
+ },
+ {
+  "id": "t-soft-16",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui passe le plus de temps sur son téléphone."
+ },
+ {
+  "id": "t-soft-17",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chacun dit quel super-pouvoir il aimerait avoir, en trois secondes chrono."
+ },
+ {
+  "id": "t-soft-18",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà parlé à leur plante ou à leur animal comme à un humain, levez la main."
+ },
+ {
+  "id": "t-soft-19",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tout le monde se lève et fait une ola."
+ },
+ {
+  "id": "t-soft-20",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "À trois, chacun désigne la personne avec qui il partirait en voyage demain."
+ },
+ {
+  "id": "t-soft-21",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà raté une marche devant tout le monde, levez la main."
+ },
+ {
+  "id": "t-soft-22",
+  "type": "tous",
+  "level": "SOFT",
+  "place": "both",
+  "text": "Chacun dit le prénom de son premier amoureux ou amoureuse d’enfance."
+ },
+ {
+  "id": "t-fun-01",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà ri tout seuls dans les transports en lisant un message, levez la main."
+ },
+ {
+  "id": "t-fun-02",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne la plus dramatique du groupe."
+ },
+ {
+  "id": "t-fun-03",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Chacun lit à voix haute la dernière notification qu’il a reçue."
+ },
+ {
+  "id": "t-fun-04",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà oublié le prénom de quelqu’un juste après qu’il s’est présenté, levez la main."
+ },
+ {
+  "id": "t-fun-05",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde pointe celui ou celle qui ferait le pire candidat de télé-réalité."
+ },
+ {
+  "id": "t-fun-06",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tout le monde prend sa meilleure pose de photo de profil, en même temps."
+ },
+ {
+  "id": "t-fun-07",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait semblant de dormir pour éviter une conversation, levez la main."
+ },
+ {
+  "id": "t-fun-08",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Chacun montre la photo la plus ancienne de sa galerie."
+ },
+ {
+  "id": "t-fun-09",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui raconte le plus de bêtises."
+ },
+ {
+  "id": "t-fun-10",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui sont déjà partis d’une soirée sans dire au revoir, levez la main."
+ },
+ {
+  "id": "t-fun-11",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Chacun fait sa meilleure imitation de l’hôte de la partie."
+ },
+ {
+  "id": "t-fun-12",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui a le plus de chances de devenir célèbre."
+ },
+ {
+  "id": "t-fun-13",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait semblant d’aimer un cadeau offert par quelqu’un ici, levez la main."
+ },
+ {
+  "id": "t-fun-14",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Chacun avoue son plus gros plaisir coupable musical, puis le groupe chante le refrain du pire."
+ },
+ {
+  "id": "t-fun-15",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde pointe la personne la plus mauvaise perdante."
+ },
+ {
+  "id": "t-fun-16",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà tapé leur propre nom sur Google, levez la main."
+ },
+ {
+  "id": "t-fun-17",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Chacun envoie un émoji au hasard à la dernière personne de sa liste de conversations."
+ },
+ {
+  "id": "t-fun-18",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde désigne qui finirait en prison en premier, pour un truc ridicule."
+ },
+ {
+  "id": "t-fun-19",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà eu un crush sur un prof, levez la main."
+ },
+ {
+  "id": "t-fun-20",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tout le monde parle en chuchotant jusqu’au prochain tour."
+ },
+ {
+  "id": "t-fun-21",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui a le pire sens de l’orientation."
+ },
+ {
+  "id": "t-fun-22",
+  "type": "tous",
+  "level": "FUN",
+  "place": "both",
+  "text": "Tous ceux qui se sont déjà fait refuser l’entrée d’une boîte, levez la main."
+ },
+ {
+  "id": "t-hard-01",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà menti à quelqu’un dans ce groupe : levez la main. Les autres choisissent qui doit dire à qui."
+ },
+ {
+  "id": "t-hard-02",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne la plus de mauvaise foi du groupe."
+ },
+ {
+  "id": "t-hard-03",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà annulé un plan avec quelqu’un ici pour un meilleur plan, levez la main."
+ },
+ {
+  "id": "t-hard-04",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, chacun pointe la personne qui le juge le plus, selon lui."
+ },
+ {
+  "id": "t-hard-05",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Chacun lit à voix haute le dernier message qu’il a reçu d’un de ses parents."
+ },
+ {
+  "id": "t-hard-06",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà menti pour couvrir quelqu’un d’ici, levez la main."
+ },
+ {
+  "id": "t-hard-07",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui a le plus changé, en pire."
+ },
+ {
+  "id": "t-hard-08",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait exprès de ne pas inviter quelqu’un d’ici, levez la main."
+ },
+ {
+  "id": "t-hard-09",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Chacun montre sa dernière recherche sur un réseau social."
+ },
+ {
+  "id": "t-hard-10",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui ment le plus."
+ },
+ {
+  "id": "t-hard-11",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà lu les messages de quelqu’un sans sa permission, levez la main."
+ },
+ {
+  "id": "t-hard-12",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Chacun révèle le dernier sujet sur lequel il a menti à quelqu’un ici."
+ },
+ {
+  "id": "t-hard-13",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui finira divorcée en premier."
+ },
+ {
+  "id": "t-hard-14",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait une capture d’écran d’une conversation avec quelqu’un d’ici pour la montrer à d’autres, levez la main."
+ },
+ {
+  "id": "t-hard-15",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Chacun révèle combien de messages non lus il a, et ouvre le plus ancien."
+ },
+ {
+  "id": "t-hard-16",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, chacun désigne la personne qu’il appellerait en dernier en cas de problème."
+ },
+ {
+  "id": "t-hard-17",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà inventé un mensonge entier pour quitter quelqu’un, levez la main."
+ },
+ {
+  "id": "t-hard-18",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne la plus manipulatrice du groupe."
+ },
+ {
+  "id": "t-hard-19",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà dit « je t’aime » sans le penser, levez la main."
+ },
+ {
+  "id": "t-hard-20",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne la plus égoïste du groupe."
+ },
+ {
+  "id": "t-hard-21",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait semblant de ne pas voir quelqu’un d’ici dans la rue, levez la main."
+ },
+ {
+  "id": "t-hard-22",
+  "type": "tous",
+  "level": "HARD",
+  "place": "both",
+  "text": "Tous ceux qui gardent encore des messages d’un ou une ex, levez la main."
+ },
+ {
+  "id": "t-x18-01",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà embrassé quelqu’un dans ce groupe, levez la main."
+ },
+ {
+  "id": "t-x18-02",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui a le plus de succès en soirée."
+ },
+ {
+  "id": "t-x18-03",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait le premier pas avec quelqu’un ici, levez la main."
+ },
+ {
+  "id": "t-x18-04",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, chacun désigne la personne avec qui il irait à un rendez-vous ce soir."
+ },
+ {
+  "id": "t-x18-05",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui se sont déjà fait surprendre en train d’embrasser quelqu’un, levez la main."
+ },
+ {
+  "id": "t-x18-06",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Chacun dit le prénom de la dernière personne qu’il a embrassée."
+ },
+ {
+  "id": "t-x18-07",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui envoie les messages les plus chauds, selon les rumeurs."
+ },
+ {
+  "id": "t-x18-08",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà envoyé un message osé à la mauvaise personne, levez la main."
+ },
+ {
+  "id": "t-x18-09",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Chacun révèle en un mot ce qui le fait craquer chez quelqu’un."
+ },
+ {
+  "id": "t-x18-10",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui drague le plus mal."
+ },
+ {
+  "id": "t-x18-11",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont dragué sur une appli cette semaine, levez la main."
+ },
+ {
+  "id": "t-x18-12",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Chacun dit l’âge qu’il avait lors de son premier baiser."
+ },
+ {
+  "id": "t-x18-13",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne qui a eu le plus de conquêtes."
+ },
+ {
+  "id": "t-x18-14",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà fait l’amour ailleurs que dans un lit, levez la main."
+ },
+ {
+  "id": "t-x18-15",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Chacun dit la tenue qui le fait craquer chez les autres."
+ },
+ {
+  "id": "t-x18-16",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, chacun désigne la personne la plus jalouse en couple."
+ },
+ {
+  "id": "t-x18-17",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, chacun désigne la personne avec qui il passerait une nuit sur une île déserte."
+ },
+ {
+  "id": "t-x18-18",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà embrassé deux personnes différentes dans la même soirée, levez la main."
+ },
+ {
+  "id": "t-x18-19",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Chacun raconte en une phrase son pire moment de solitude au lit."
+ },
+ {
+  "id": "t-x18-20",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tous ceux qui ont déjà écrit à un ou une ex à trois heures du matin, levez la main."
+ },
+ {
+  "id": "t-x18-21",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "À trois, tout le monde désigne la personne la plus romantique du groupe."
+ },
+ {
+  "id": "t-x18-22",
+  "type": "tous",
+  "level": "+18",
+  "place": "both",
+  "text": "Tout le monde fait en même temps son plus beau regard de séduction à la personne de son choix."
+ }
+]
