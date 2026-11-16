@@ -79,7 +79,11 @@ function createGame(deps) {
     g.timers[name] = scheduler.set(() => {
       delete g.timers[name];
       if (room.closed || room.game !== g) return;
-      fn();
+      try {
+        fn();
+      } catch (e) {
+        console.error('[game] erreur de minuteur :', e && e.message);
+      }
       api.broadcast(room);
     }, ms);
   }

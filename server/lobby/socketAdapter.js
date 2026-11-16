@@ -367,6 +367,7 @@ function attachLobby({ io, manager, game, publicUrl, trustProxy = false, limits 
       const ctx = context(socket);
       if (!ctx || ctx.isScreen) return 'NOT_IN_ROOM';
       if (!ctx.isHost) return 'NOT_HOST';
+      if (ctx.room.phase !== 'lobby') return 'BAD_PHASE';
       if (typeof p.locked !== 'boolean') return 'INVALID_SETTINGS';
       manager.setLocked(ctx.room, p.locked);
       ack({ ok: true });
