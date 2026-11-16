@@ -1,4 +1,6 @@
-// Configuration PM2. Sur le VPS : pm2 start deploy/ecosystem.config.js && pm2 save
+// Configuration PM2 (modèle). Ne mets pas tes vraies valeurs dans ce fichier versionné :
+//   cp deploy/ecosystem.config.js deploy/ecosystem.local.config.js   (ignoré par git)
+//   puis adapte PORT / PUBLIC_URL / ALLOWED_ORIGIN et lance : pm2 start deploy/ecosystem.local.config.js
 module.exports = {
   apps: [
     {
@@ -12,12 +14,10 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         PORT: 3004,
-        PUBLIC_URL: 'https://av.samuel-josephmyrtil.fr',
-        ALLOWED_ORIGIN: 'https://av.samuel-josephmyrtil.fr',
+        PUBLIC_URL: 'https://jeu.example.com',
+        ALLOWED_ORIGIN: 'https://jeu.example.com',
         TRUST_PROXY: '1',
       },
-      out_file: '/var/log/action-ou-verite/out.log',
-      error_file: '/var/log/action-ou-verite/error.log',
       time: true,
     },
   ],

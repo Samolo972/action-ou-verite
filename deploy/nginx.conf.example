@@ -1,6 +1,6 @@
-# /etc/nginx/sites-available/av.samuel-josephmyrtil.fr
+# /etc/nginx/sites-available/jeu.example.com
 # Reverse proxy vers Node (port 3004) avec support WebSocket.
-# Certbot ajoute lui-même le bloc HTTPS (listen 443 + certificats) avec : certbot --nginx -d av.samuel-josephmyrtil.fr
+# Certbot ajoute lui-même le bloc HTTPS (listen 443 + certificats) avec : certbot --nginx -d jeu.example.com
 
 map $http_upgrade $connection_upgrade {
     default upgrade;
@@ -10,7 +10,7 @@ map $http_upgrade $connection_upgrade {
 server {
     listen 80;
     listen [::]:80;
-    server_name av.samuel-josephmyrtil.fr;
+    server_name jeu.example.com;
 
     # Pas de logs d'accès : aucune donnée personnelle conservée.
     access_log off;

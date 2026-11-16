@@ -31,7 +31,7 @@ Plusieurs onglets d'un même navigateur peuvent jouer chacun de leur côté : la
 | Variable | Rôle | Défaut |
 |---|---|---|
 | `PORT` | Port HTTP local | `3004` |
-| `PUBLIC_URL` | URL publique (liens d'invitation, Open Graph) | `http://localhost:PORT` |
+| `PUBLIC_URL` | URL publique, ex. `https://jeu.example.com` (liens d'invitation, Open Graph) | `http://localhost:PORT` |
 | `ALLOWED_ORIGIN` | Origine(s) autorisée(s) pour CORS et WebSocket, séparées par des virgules | `PUBLIC_URL` |
 | `NODE_ENV` | `production` active HSTS et `upgrade-insecure-requests` | — |
 | `TRUST_PROXY` | `1` : lire l'IP client dans `X-Forwarded-For` (derrière nginx) | `1` si production |
@@ -114,63 +114,61 @@ Un écran ne peut envoyer **aucun** événement de jeu ni de gestion du salon.
 
 Phases de jeu : `lobby → ready → (countdown →) spinning → choosing → card → ready …`, ou `ready → everyone → ready`, puis `ended`.
 
-## Déploiement sur le VPS (Debian, nginx, PM2)
+## Déploiement (Linux, nginx, PM2)
 
-> Port retenu : **3004** (3000 à 3003 sont déjà utilisés sur le VPS).
+Exemple pour un serveur Debian/Ubuntu avec Node ≥ 20, nginx et certbot déjà installés. Remplace `jeu.example.com` par ton sous-domaine et `3004` par un port libre sur ta machine.
 
 ### 1. DNS
 
-Chez le registrar du domaine, ajouter un enregistrement **A** :
+Chez ton registrar, ajoute un enregistrement **A** pour le sous-domaine vers l'IP du serveur, puis vérifie :
 
+```bash
+dig +short jeu.example.com
 ```
-av    A    <IP du VPS>    TTL 3600
-```
-
-Vérifier : `dig +short av.samuel-josephmyrtil.fr` doit renvoyer l'IP du VPS.
 
 ### 2. Installation
 
 ```bash
-sudo mkdir -p /var/www/action-ou-verite /var/log/action-ou-verite
-sudo chown $USER: /var/www/action-ou-verite /var/log/action-ou-verite
-git clone https://github.com/Samolo972/action-ou-verite.git /var/www/action-ou-verite
-cd /var/www/action-ou-verite
+git clone https://github.com/Samolo972/action-ou-verite.git
+cd action-ou-verite
 npm ci --omit=dev
-npm test   # optionnel (demande npm ci complet)
 ```
 
 ### 3. PM2
 
+La configuration versionnée est un modèle : copie-la (la copie `*.local.*` est ignorée par git) et mets-y tes valeurs.
+
 ```bash
-sudo npm install -g pm2          # si PM2 n'est pas déjà installé
-pm2 start deploy/ecosystem.config.js
+cp deploy/ecosystem.config.js deploy/ecosystem.local.config.js
+nano deploy/ecosystem.local.config.js     # PORT, PUBLIC_URL, ALLOWED_ORIGIN
+pm2 start deploy/ecosystem.local.config.js
 pm2 save
-pm2 startup                      # puis lancer la commande sudo affichée
-curl -s http://127.0.0.1:3004/healthz   # {"ok":true}
+pm2 startup                               # puis lancer la commande sudo affichée
+curl -s http://127.0.0.1:3004/healthz     # {"ok":true}
 ```
 
 ### 4. nginx
 
 ```bash
-sudo cp deploy/nginx.conf.example /etc/nginx/sites-available/av.samuel-josephmyrtil.fr
-sudo ln -s /etc/nginx/sites-available/av.samuel-josephmyrtil.fr /etc/nginx/sites-enabled/
+sudo cp deploy/nginx.conf.example /etc/nginx/sites-available/jeu.example.com
+sudo nano /etc/nginx/sites-available/jeu.example.com   # server_name et port
+sudo ln -s /etc/nginx/sites-available/jeu.example.com /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-> Si un autre site du serveur définit déjà `map $http_upgrade $connection_upgrade`, retirer ce bloc du fichier (il ne peut exister qu'une fois).
+> Si un autre site de ton serveur définit déjà `map $http_upgrade $connection_upgrade`, retire ce bloc du fichier (il ne peut exister qu'une fois).
 
 ### 5. HTTPS (certbot)
 
 ```bash
-sudo certbot --nginx -d av.samuel-josephmyrtil.fr
+sudo certbot --nginx -d jeu.example.com
 ```
 
-Certbot ajoute le bloc 443 et la redirection HTTP → HTTPS. Le renouvellement est automatique.
+Certbot ajoute le bloc 443 et la redirection HTTP → HTTPS ; le renouvellement est automatique.
 
 ### 6. Mise à jour
 
 ```bash
-cd /var/www/action-ou-verite
 git pull
 npm ci --omit=dev
 pm2 restart action-ou-verite
