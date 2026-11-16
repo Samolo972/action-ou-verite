@@ -1,0 +1,28 @@
+{
+  "name": "action-ou-verite",
+  "version": "1.0.0",
+  "description": "Action ou Vérité multijoueur en ligne : chacun sur son téléphone, en présentiel ou en visio.",
+  "main": "server/index.js",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/",
+    "check:cards": "node scripts/check-cards.js",
+    "vendor": "node scripts/vendor.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "helmet": "^8.3.0",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "qrcode-generator": "^2.0.4"
+  }
+}
