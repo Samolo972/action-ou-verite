@@ -1,6 +1,6 @@
 // Service worker minimal : met en cache les fichiers statiques uniquement.
 // Jamais les sockets (/socket.io/), ni les pages HTML (toujours servies fraîches par le réseau).
-const VERSION = 'av-v1';
+const VERSION = 'av-v2';
 const STATIC = [
   '/css/app.css',
   '/js/main.js',
@@ -30,7 +30,13 @@ const STATIC = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(VERSION).then((c) => c.addAll(STATIC)).then(() => self.skipWaiting()));
+  // cache: 'reload' : on ignore le cache HTTP du navigateur pour récupérer la dernière version.
+  event.waitUntil(
+    caches
+      .open(VERSION)
+      .then((c) => c.addAll(STATIC.map((u) => new Request(u, { cache: 'reload' }))))
+      .then(() => self.skipWaiting()),
+  );
 });
 
 self.addEventListener('activate', (event) => {
@@ -53,7 +59,7 @@ self.addEventListener('fetch', (event) => {
 
   // Statique : réseau d'abord (pour avoir les mises à jour), cache en secours hors ligne.
   event.respondWith(
-    fetch(req)
+    fetch(req, { cache: 'no-cache' })
       .then((res) => {
         if (res.ok) {
           const copy = res.clone();

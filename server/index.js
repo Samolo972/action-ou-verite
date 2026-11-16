@@ -73,8 +73,10 @@ app.use(
     index: false,
     maxAge: IS_PROD ? '7d' : 0,
     setHeaders(res, filePath) {
-      // Le service worker et le manifeste doivent toujours être revalidés.
-      if (filePath.endsWith('sw.js') || filePath.endsWith('manifest.json')) {
+      // Code (JS, CSS), service worker et manifeste : toujours revalidés auprès du serveur (ETag),
+      // sinon les téléphones gardent une ancienne version après une mise à jour.
+      // Polices, icônes et librairies tierces : cache long, elles ne changent pas.
+      if (/\.(js|css|json)$/.test(filePath) && !filePath.includes(`${path.sep}vendor${path.sep}`)) {
         res.set('Cache-Control', 'no-cache');
       }
     },
