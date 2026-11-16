@@ -5,14 +5,18 @@ const fs = require('fs');
 const express = require('express');
 const helmet = require('helmet');
 const { Server } = require('socket.io');
-const { PORT, PUBLIC_URL, ALLOWED_ORIGIN, IS_PROD } = require('./config');
+const { PORT, PUBLIC_URL, ALLOWED_ORIGIN, IS_PROD, TRUST_PROXY } = require('./config');
+const { LobbyManager, attachLobby } = require('./lobby');
+const { createGame } = require('./game');
+const { loadCards } = require('./game/deck');
+const { cleanCode } = require('./utils/validation');
 
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');
 
 const app = express();
 app.disable('x-powered-by');
 // Derrière nginx : l'IP réelle du client arrive dans X-Forwarded-For.
-app.set('trust proxy', 1);
+app.set('trust proxy', TRUST_PROXY ? 1 : false);
 
 const wsOrigins = ALLOWED_ORIGIN.map((o) => o.replace(/^http/, 'ws'));
 
@@ -54,6 +58,14 @@ function sendIndex(res) {
 }
 
 app.get('/', (req, res) => sendIndex(res));
+
+// Lien d'invitation : on valide seulement le format du code, le statut du salon est vérifié par socket.
+app.get('/j/:code', (req, res) => {
+  const code = cleanCode(req.params.code);
+  if (!code) return res.redirect(302, '/');
+  if (code !== req.params.code) return res.redirect(301, `/j/${code}`);
+  return sendIndex(res);
+});
 app.get('/healthz', (req, res) => res.json({ ok: true }));
 
 app.use(
@@ -77,10 +89,20 @@ const io = new Server(server, {
   maxHttpBufferSize: 4096, // aucun message légitime ne dépasse quelques centaines d'octets
   pingInterval: 20000,
   pingTimeout: 20000,
+  // CORS ne protège pas les WebSockets : on vérifie l'origine nous-mêmes.
+  allowRequest: (req, cb) => {
+    const origin = req.headers.origin;
+    cb(null, !origin || ALLOWED_ORIGIN.includes(origin));
+  },
 });
 
+const cards = loadCards();
+const game = createGame({ cards });
+const manager = new LobbyManager({ hooks: game.hooks });
+attachLobby({ io, manager, game, publicUrl: PUBLIC_URL, trustProxy: TRUST_PROXY });
+
 server.listen(PORT, () => {
-  console.log(`Action ou Vérité démarré sur le port ${PORT} (${PUBLIC_URL})`);
+  console.log(`Action ou Vérité démarré sur le port ${PORT} (${PUBLIC_URL}), ${cards.length} cartes`);
 });
 
 module.exports = { app, server, io };
