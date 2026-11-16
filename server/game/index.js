@@ -2,7 +2,7 @@
 // Logique « Action ou Vérité », branchée sur le moteur de salon (contrat : server/lobby/README.md).
 // Le serveur fait autorité : il désigne les joueurs, tire les cartes et gère les minuteurs.
 
-const { defaultSettings, validateSettings, applySettings, isAdult } = require('./settings');
+const { defaultSettings, validateSettings, applySettings } = require('./settings');
 const { pool, draw } = require('./deck');
 
 const SPIN_MS = 4000; // durée de l'animation de la roue
@@ -89,11 +89,6 @@ function createGame(deps) {
   }
 
   const allowedTypes = (s) => (s.cardType === 'both' ? ['action', 'verite'] : [s.cardType]);
-
-  function agePending(room) {
-    if (!isAdult(room.game.settings)) return [];
-    return [...room.members.values()].filter((m) => !m.adult).map((m) => m.id);
-  }
 
   // ---------- Rotation ----------
 
@@ -247,7 +242,6 @@ function createGame(deps) {
         const { room } = ctx;
         if (room.game.phase !== 'lobby') return 'BAD_PHASE';
         if (room.members.size < 2) return 'NOT_ENOUGH_PLAYERS';
-        if (agePending(room).length) return 'AGE_PENDING';
         if (!allowedTypes(room.game.settings).some((t) => pool(cards, t, room.game.settings).length)) return 'NO_CARDS';
         startGame(room);
         return null;
@@ -359,19 +353,11 @@ function createGame(deps) {
           return null;
         }
         if (room.members.size < 2) return 'NOT_ENOUGH_PLAYERS';
-        if (agePending(room).length) return 'AGE_PENDING';
         startGame(room);
         return null;
       },
     },
 
-    'game:confirmAge': {
-      role: 'player',
-      handler(ctx) {
-        ctx.member.adult = true;
-        return null;
-      },
-    },
   };
 
   // ---------- Contrat du moteur de salon ----------
@@ -387,14 +373,12 @@ function createGame(deps) {
       initRoom(room) {
         room.game = freshState(defaultSettings());
       },
-      canJoin(room, payload) {
+      canJoin(room) {
         const g = room.game;
         if (room.phase === 'playing' && !g.settings.lateJoin) return 'GAME_IN_PROGRESS';
-        if (isAdult(g.settings) && payload.adult !== true) return 'AGE_REQUIRED';
         return null;
       },
-      onMemberAdded(room, member, payload) {
-        member.adult = payload.adult === true;
+      onMemberAdded(room, member) {
         const g = room.game;
         if (g && room.phase === 'playing') g.pending.push(member.id);
       },
@@ -415,7 +399,7 @@ function createGame(deps) {
 
     publicInfo(room) {
       const s = room.game.settings;
-      return { mode: s.mode, levels: [...s.levels], adult: isAdult(s), playing: room.phase === 'playing' };
+      return { mode: s.mode, levels: [...s.levels], playing: room.phase === 'playing' };
     },
 
     validateSettings(room, partial) {
@@ -432,7 +416,7 @@ function createGame(deps) {
     },
 
     /** Partie « jeu » de room:state. Ne contient aucune donnée secrète. */
-    view(room, viewer) {
+    view(room) {
       const g = room.game;
       const c = g.current;
       return {
@@ -457,8 +441,6 @@ function createGame(deps) {
         everyone: g.everyone,
         spin: g.spin,
         countdown: g.countdown,
-        agePending: agePending(room),
-        youAdult: viewer && viewer.id ? Boolean(room.members.get(viewer.id)?.adult) : false,
       };
     },
 

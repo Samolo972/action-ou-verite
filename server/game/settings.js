@@ -60,6 +60,4 @@ function applySettings(settings, partial) {
   return settings;
 }
 
-const isAdult = (settings) => settings.levels.includes('+18');
-
-module.exports = { LEVELS, ALLOWED, DEFAULT_SETTINGS, defaultSettings, validateSettings, applySettings, isAdult };
+module.exports = { LEVELS, ALLOWED, DEFAULT_SETTINGS, defaultSettings, validateSettings, applySettings };

@@ -29,7 +29,7 @@ attachLobby({ io, manager, game, publicUrl: 'https://exemple.fr', trustProxy: tr
 | Membre | Rôle |
 |---|---|
 | `hooks.initRoom(room)` | Initialise `room.game` à la création |
-| `hooks.canJoin(room, payload)` | Code d'erreur si l'arrivée est refusée (ex. `AGE_REQUIRED`), sinon `null` |
+| `hooks.canJoin(room, payload)` | Code d'erreur si l'arrivée est refusée (ex. partie en cours sans retardataires), sinon `null` |
 | `hooks.onMemberAdded(room, member, payload)` | Un joueur arrive |
 | `hooks.onMemberRemoved(room, member, reason)` | Un joueur part (`left` ou `kicked`) |
 | `hooks.onConnectionChange(room, member)` | Un joueur se déconnecte ou revient |

@@ -83,14 +83,11 @@ export function homeView(app) {
     if (!checkName()) return;
     busy = true;
     joinBtn.disabled = true;
-    const res = await app.joinRoom(code, nameInput.value.trim(), false);
+    const res = await app.joinRoom(code, nameInput.value.trim());
     busy = false;
     joinBtn.disabled = false;
     if (res.ok) return;
-    if (res.error === 'AGE_REQUIRED') {
-      // Le niveau +18 est actif : on passe par l'écran d'invitation qui demande la confirmation.
-      app.openInvite(code, nameInput.value.trim());
-    } else if (res.error === 'NAME_TAKEN' || res.error === 'INVALID_NAME') {
+    if (res.error === 'NAME_TAKEN' || res.error === 'INVALID_NAME') {
       showErr(nameErr, nameInput, res.message);
     } else {
       showErr(codeErr, codeInput, res.message);

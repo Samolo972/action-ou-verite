@@ -68,7 +68,7 @@ tests/              node:test
 - Pas de bouton « Passer » : seulement « Changer de carte » (dans la limite) et « Forcer le tour suivant » pour l'hôte.
 - Une carte tirée ne revient pas dans la partie tant qu'il en reste (le paquet est recyclé s'il est épuisé). Les cartes `place: "presentiel"` ne sortent jamais à distance, et inversement pour `distance`.
 - Le minuteur démarre sur une carte Action (affiché pour tous, grand écran compris) ; à la fin, signal visuel + sonore + vibration, sans passage automatique.
-- +18 : confirmation obligatoire pour rejoindre ; si l'hôte l'active avec des joueurs déjà là, chacun doit confirmer avant le lancement (sinon il quitte).
+- Pas de confirmation d'âge : le jeu est prévu pour un groupe d'amis adultes qui se connaissent. Le niveau +18 est un simple réglage de l'hôte.
 - Hôte : s'il quitte, le rôle passe au joueur suivant immédiatement ; s'il est déconnecté, au bout de 60 s.
 - Salon supprimé après 30 min d'inactivité.
 
@@ -81,15 +81,15 @@ Toutes les requêtes client → serveur prennent un objet et un accusé de réce
 | Événement | Données | Qui | Effet |
 |---|---|---|---|
 | `room:create` | `{ name }` | tous | Crée un salon, l'émetteur devient hôte. Réponse : `{ code, token, memberId }` |
-| `room:info` | `{ code }` | tous | Infos publiques avant de rejoindre : hôte, nombre de joueurs, mode, niveaux, `adult`, `joinable`, `reason` |
-| `room:join` | `{ code, name, adult }` | tous | Rejoint comme joueur (`adult: true` obligatoire si +18). Réponse : `{ code, token, memberId }` |
+| `room:info` | `{ code }` | tous | Infos publiques avant de rejoindre : hôte, nombre de joueurs, mode, niveaux, `joinable`, `reason` |
+| `room:join` | `{ code, name }` | tous | Rejoint comme joueur. Réponse : `{ code, token, memberId }` |
 | `room:resume` | `{ code, token }` | tous | Reprend sa place (rechargement, veille, réseau) |
 | `room:leave` | `{}` | joueur / écran | Quitte le salon |
 | `room:kick` | `{ memberId }` | hôte | Exclut un joueur |
 | `room:lock` | `{ locked }` | hôte, salon d'attente | Verrouille / déverrouille |
 | `room:settings` | réglages partiels, ex. `{ mode: 'distance' }`, `{ levels: ['FUN','HARD'] }`, `{ maxPlayers: 8 }` | hôte, salon d'attente | Change les réglages (valeurs autorisées uniquement) |
 | `screen:join` | `{ code }` | tous | Rejoint comme écran (grand écran, jamais joueur) |
-| `game:start` | `{}` | hôte | Lance la partie (2 joueurs minimum, confirmations 18+ faites) |
+| `game:start` | `{}` | hôte | Lance la partie (2 joueurs minimum) |
 | `game:spin` | `{}` | hôte | Lance la roue (avec compte à rebours si réglé) |
 | `game:choose` | `{ type: 'action' \| 'verite' }` | joueur désigné | Choisit, le serveur tire la carte |
 | `game:reroll` | `{}` | joueur désigné | Change de carte (dans la limite du réglage) |
@@ -97,7 +97,6 @@ Toutes les requêtes client → serveur prennent un objet et un accusé de réce
 | `game:forceNext` | `{}` | hôte | Force le passage au tour suivant |
 | `game:end` | `{}` | hôte | Termine la partie |
 | `game:restart` | `{}` ou `{ lobby: true }` | hôte, partie terminée | Rejoue avec les mêmes joueurs, ou revient au salon |
-| `game:confirmAge` | `{}` | joueur | Confirme avoir 18 ans ou plus |
 
 Un écran ne peut envoyer **aucun** événement de jeu ni de gestion du salon.
 
@@ -105,7 +104,7 @@ Un écran ne peut envoyer **aucun** événement de jeu ni de gestion du salon.
 
 | Événement | Données |
 |---|---|
-| `room:state` | État complet, personnalisé : `code`, `inviteUrl`, `phase`, `locked`, `maxPlayers`, `hostId`, `players[]` (`id`, `name`, `slot`, `connected`, `isHost`), `screens`, `you` (`id`, `isHost`, `isScreen`), `game` (`settings`, `phase`, `turn`, `playerTurns`, `participants`, `passed`, `current` { `playerId`, `type`, `card`, `rerollsLeft`, `timer` }, `everyone`, `spin`, `countdown`, `agePending`, `youAdult`, `serverNow`) |
+| `room:state` | État complet, personnalisé : `code`, `inviteUrl`, `phase`, `locked`, `maxPlayers`, `hostId`, `players[]` (`id`, `name`, `slot`, `connected`, `isHost`), `screens`, `you` (`id`, `isHost`, `isScreen`), `game` (`settings`, `phase`, `turn`, `playerTurns`, `participants`, `passed`, `current` { `playerId`, `type`, `card`, `rerollsLeft`, `timer` }, `everyone`, `spin`, `countdown`, `serverNow`) |
 | `room:kicked` | Tu as été exclu |
 | `room:closed` | `{ reason: 'expired' \| 'empty' }` |
 | `room:replaced` | Ta place a été reprise dans un autre onglet / appareil |
@@ -215,7 +214,7 @@ Vérifié dans le code (et couvert par des tests quand c'est indiqué) :
 **Composants (A06)** : `npm audit` sans vulnérabilité ; trois dépendances de production (express, socket.io, helmet).
 
 **Limites connues**
-- La confirmation 18+ est déclarative (case à cocher) : aucune vérification d'âge réelle n'est possible sans collecter de données.
+- Aucune vérification d'âge : c'est à l'hôte de n'activer le niveau +18 qu'entre adultes.
 - Un joueur exclu peut revenir avec un autre pseudo s'il a le code (verrouiller le salon l'en empêche).
 - L'état est en mémoire : un redémarrage du serveur ferme toutes les parties ; une seule instance (pas de cluster).
 

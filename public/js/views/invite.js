@@ -7,7 +7,6 @@ import { nameError } from './home.js';
 
 export function inviteView(app, code, presetName) {
   let info = null;
-  let adultOk = false;
   let busy = false;
 
   const el = h('main', { class: 'screen screen--invite' });
@@ -47,27 +46,13 @@ export function inviteView(app, code, presetName) {
     const nameErr = h('p', { class: 'field-error', id: 'pseudo2-err', 'aria-live': 'polite' });
     const joinBtn = h('button', { type: 'button', class: 'btn btn--xl btn--blue push-bottom', onclick: join }, 'Rejoindre la partie', icon('arrow', { width: 2.4 }));
 
-    const age = info.adult
-      ? h(
-          'button',
-          { type: 'button', class: 'age-check', role: 'checkbox', 'aria-checked': 'false', onclick: toggleAge },
-          h('span', { class: 'box' }, icon('check', { size: 16, width: 3, stroke: '#0F0E17' })),
-          h('span', null, 'Je confirme avoir 18 ans ou plus (le niveau +18 est activé)'),
-        )
-      : null;
-
     function canJoin() {
-      return !nameError(nameInput.value) && (!info.adult || adultOk);
+      return !nameError(nameInput.value);
     }
     function refresh() {
       const ok = canJoin();
       joinBtn.disabled = !ok || busy;
       joinBtn.setAttribute('aria-disabled', ok ? 'false' : 'true');
-    }
-    function toggleAge() {
-      adultOk = !adultOk;
-      age.setAttribute('aria-checked', adultOk ? 'true' : 'false');
-      refresh();
     }
     async function join() {
       const err = nameError(nameInput.value);
@@ -79,7 +64,7 @@ export function inviteView(app, code, presetName) {
       if (!canJoin() || busy) return;
       busy = true;
       refresh();
-      const res = await app.joinRoom(code, nameInput.value.trim(), adultOk);
+      const res = await app.joinRoom(code, nameInput.value.trim());
       busy = false;
       refresh();
       if (res.ok) return;
@@ -123,7 +108,6 @@ export function inviteView(app, code, presetName) {
         ),
       ),
       h('div', { class: 'field' }, h('label', { for: 'pseudo2', class: 'label' }, 'Ton pseudo'), nameInput, nameErr),
-      age,
       joinBtn,
     );
     refresh();

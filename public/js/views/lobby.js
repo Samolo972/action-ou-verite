@@ -99,7 +99,6 @@ export function lobbyView(app) {
   function playersTab(ctx) {
     const { room, isHost, you } = ctx;
     const s = ctx.game.settings;
-    const pending = new Set(ctx.game.agePending);
     return h(
       'div',
       { class: 'settings', role: isHost ? 'tabpanel' : null, id: 'panel-players' },
@@ -143,7 +142,6 @@ export function lobbyView(app) {
               avatar(p),
               h('span', { class: 'player-name' }, p.name, p.id === you.id ? h('span', { class: 'faint' }, ' (toi)') : null),
               !p.connected ? h('span', { class: 'state-tag' }, 'hors ligne') : null,
-              pending.has(p.id) ? h('span', { class: 'state-tag' }, '18+ ?') : null,
               p.isHost ? h('span', { class: 'host-tag' }, 'HÔTE') : null,
               isHost && !p.isHost
                 ? h(
@@ -222,9 +220,6 @@ export function lobbyView(app) {
             ),
           ),
         ),
-        s.levels.includes('+18')
-          ? h('div', { class: 'warn', role: 'note' }, icon('info', { size: 18 }), h('span', null, 'Chaque joueur devra confirmer avoir 18 ans ou plus pour rejoindre.'))
-          : null,
       ),
       chipGroup({ ctx, title: 'Type de cartes', hint: 'Limiter la partie aux actions ou aux vérités', key: 'cardType', options: CARD_TYPES, cols: 3, color: 'orange', value: s.cardType }),
       switchRow({
@@ -291,7 +286,6 @@ export function lobbyView(app) {
   function update(ctx) {
     const { room, isHost } = ctx;
     const tab = isHost ? app.ui.tab || 'players' : 'players';
-    const pending = ctx.game.agePending;
     const enough = room.players.length >= 2;
 
     const tabs = isHost
@@ -323,7 +317,7 @@ export function lobbyView(app) {
 
     let footer;
     if (isHost) {
-      const blocked = !enough ? 'Il faut au moins 2 joueurs pour lancer.' : pending.length ? 'En attente des confirmations 18+.' : null;
+      const blocked = !enough ? 'Il faut au moins 2 joueurs pour lancer.' : null;
       footer = h(
         'div',
         { class: 'actions-col push-bottom' },
@@ -356,18 +350,3 @@ export function lobbyView(app) {
   return { el, update };
 }
 
-/** Fenêtre de confirmation 18+ (le niveau +18 a été activé alors que le joueur était déjà là). */
-export function ageModal(app) {
-  openModal({
-    title: 'Niveau +18 activé',
-    text: (app.ctx()?.isHost ? 'Tu as activé' : "L'hôte a activé") + ' le niveau +18 : cartes osées entre adultes consentants. Confirme que tu as 18 ans ou plus pour continuer.',
-    dismissable: false,
-    labelledBy: 'age-title',
-    actions: h(
-      'div',
-      { class: 'actions-col' },
-      h('button', { type: 'button', class: 'btn btn--xl btn--white', onclick: () => app.ctx().send('game:confirmAge') }, icon('check', { width: 2.6 }), "J'ai 18 ans ou plus"),
-      h('button', { type: 'button', class: 'btn btn--m btn--outline', onclick: () => { closeModal(); app.leave(); } }, "Je n'ai pas 18 ans : quitter"),
-    ),
-  });
-}

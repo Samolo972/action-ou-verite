@@ -14,7 +14,6 @@ const MESSAGES = {
   INVALID_CODE: 'Code invalide : 6 caractères.',
   INVALID_SETTINGS: 'Réglage invalide.',
   MAX_BELOW_PLAYERS: 'Il y a déjà plus de joueurs que ce maximum.',
-  AGE_REQUIRED: 'Le niveau +18 est activé : tu dois confirmer avoir 18 ans ou plus.',
   GAME_IN_PROGRESS: 'La partie a déjà commencé et les retardataires ne sont pas acceptés.',
   NOT_IN_ROOM: "Tu n'es plus dans ce salon.",
   NOT_HOST: "Seul l'hôte peut faire ça.",

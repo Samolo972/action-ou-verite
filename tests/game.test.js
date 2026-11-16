@@ -53,9 +53,9 @@ function setup({ players = 3, cards = makeCards(), rng = Math.random, everyoneCh
   game.attach({ broadcast() {}, emit: (room, ev, data) => emitted.push([ev, data]), touch() {} });
   const lobby = new LobbyManager({ hooks: game.hooks });
   const names = ['Samuel', 'Inès', 'Yanis', 'Léa', 'Mehdi', 'Nora', 'Tom', 'Zoé'];
-  const { room, member: host } = lobby.createRoom(names[0], { adult: true });
+  const { room, member: host } = lobby.createRoom(names[0], {});
   const members = [host];
-  for (let i = 1; i < players; i++) members.push(lobby.joinRoom(room, names[i], { adult: true }).member);
+  for (let i = 1; i < players; i++) members.push(lobby.joinRoom(room, names[i], {}).member);
   members.forEach((m) => lobby.setConnected(room, m, 's-' + m.id));
   if (Object.keys(settings).length) {
     assert.equal(game.validateSettings(room, settings), null);
@@ -248,7 +248,7 @@ test('retardataire : entre dans la rotation au tour suivant', () => {
   const t = setup({ players: 2, settings: { order: 'fixed' } });
   t.send('game:start', t.host);
   spin(t); // tour en cours de Samuel
-  const late = t.lobby.joinRoom(t.room, 'Zoé', { adult: true }).member;
+  const late = t.lobby.joinRoom(t.room, 'Zoé', {}).member;
   t.lobby.setConnected(t.room, late, 's-late');
   t.members.push(late);
   assert.ok(t.room.game.pending.includes(late.id));
@@ -263,7 +263,7 @@ test('retardataire : entre dans la rotation au tour suivant', () => {
 test('rejoindre en cours de partie désactivé : arrivée refusée', () => {
   const t = setup({ players: 2, settings: { lateJoin: false } });
   t.send('game:start', t.host);
-  assert.equal(t.lobby.joinRoom(t.room, 'Zoé', { adult: true }).error, 'GAME_IN_PROGRESS');
+  assert.equal(t.lobby.joinRoom(t.room, 'Zoé', {}).error, 'GAME_IN_PROGRESS');
 });
 
 // ---------- Cartes « Tout le monde » ----------
@@ -463,23 +463,16 @@ test('lancement : hôte seulement, 2 joueurs minimum', () => {
   assert.equal(t.send('game:start', t.host), 'BAD_PHASE');
 });
 
-test('+18 : arrivée refusée sans confirmation, lancement bloqué tant que tous n’ont pas confirmé', () => {
+test('+18 : aucune confirmation d’âge, on rejoint et on lance directement', () => {
   const scheduler = fakeScheduler();
   const game = createGame({ cards: makeCards(), scheduler, everyoneChance: 0 });
   const lobby = new LobbyManager({ hooks: game.hooks });
   const { room, member: host } = lobby.createRoom('Samuel', {});
-  const ines = lobby.joinRoom(room, 'Inès', {}).member;
+  lobby.joinRoom(room, 'Inès', {});
   game.applySettings(room, { levels: ['HARD', '+18'] });
-  assert.equal(lobby.joinRoom(room, 'Yanis', {}).error, 'AGE_REQUIRED');
-  assert.equal(lobby.joinRoom(room, 'Yanis', { adult: 'yes' }).error, 'AGE_REQUIRED');
-  assert.ok(lobby.joinRoom(room, 'Yanis', { adult: true }).member);
-  assert.equal(game.publicInfo(room).adult, true);
-  const start = () => game.events['game:start'].handler({ room, member: host, isHost: true }, {});
-  assert.equal(start(), 'AGE_PENDING');
-  assert.deepEqual(game.view(room, { id: host.id }).agePending.sort(), [host.id, ines.id].sort());
-  game.events['game:confirmAge'].handler({ room, member: host }, {});
-  game.events['game:confirmAge'].handler({ room, member: ines }, {});
-  assert.equal(start(), null);
+  assert.ok(lobby.joinRoom(room, 'Yanis', {}).member);
+  assert.ok(!('game:confirmAge' in game.events));
+  assert.equal(game.events['game:start'].handler({ room, member: host, isHost: true }, {}), null);
 });
 
 test('départ du joueur dont c’est le tour : tour suivant sans le compter', () => {

@@ -6,7 +6,7 @@ import { keepAwake, vibrate, sound } from './comfort.js';
 import { closeModal } from './components.js';
 import { homeView, tvFormView } from './views/home.js';
 import { inviteView, noticeView } from './views/invite.js';
-import { lobbyView, ageModal } from './views/lobby.js';
+import { lobbyView } from './views/lobby.js';
 import { shareView } from './views/share.js';
 import { wheelView, cardView, everyoneView, endView } from './views/game.js';
 import { tvView } from './views/tv.js';
@@ -34,7 +34,6 @@ const state = {
   notice: null,
   presetName: null,
   resuming: Boolean(session.get() || screenSession.get()),
-  ageModalOpen: false,
   lastTurnAlert: null,
 };
 
@@ -94,9 +93,9 @@ const app = {
     return res;
   },
 
-  async joinRoom(code, name, adult) {
+  async joinRoom(code, name) {
     await waitConnected();
-    const res = await request('room:join', { code, name, adult: adult === true });
+    const res = await request('room:join', { code, name });
     if (res.ok) {
       session.set(res.code, res.token);
       screenSession.clear();
@@ -124,7 +123,6 @@ const app = {
 
   async leave() {
     closeModal();
-    state.ageModalOpen = false;
     if (socket.connected) await request('room:leave');
     session.clear();
     screenSession.clear();
@@ -234,15 +232,6 @@ function afterRender(c) {
   // Écran toujours allumé pendant la partie.
   keepAwake(Boolean(c && c.room.phase === 'playing'));
 
-  // Confirmation 18+ demandée quand l'hôte active le niveau +18 avec des joueurs déjà présents.
-  const needAge = Boolean(c && !c.you.isScreen && c.game.phase === 'lobby' && c.game.settings.levels.includes('+18') && !c.game.youAdult);
-  if (needAge && !state.ageModalOpen) {
-    state.ageModalOpen = true;
-    ageModal(app);
-  } else if (!needAge && state.ageModalOpen) {
-    state.ageModalOpen = false;
-    closeModal();
-  }
 
   // C'est ton tour : vibration + son, une seule fois par tour.
   if (c && !c.you.isScreen && c.game.current && c.game.current.playerId === c.you.id && ['choosing', 'card'].includes(c.game.phase)) {
@@ -315,7 +304,6 @@ socket.on('room:kicked', () => {
   state.room = null;
   state.notice = 'kicked';
   closeModal();
-  state.ageModalOpen = false;
   history.replaceState(null, '', '/');
   render();
 });
@@ -326,7 +314,6 @@ socket.on('room:closed', ({ reason } = {}) => {
   state.room = null;
   state.notice = reason === 'expired' ? 'expired' : 'empty';
   closeModal();
-  state.ageModalOpen = false;
   render();
 });
 
@@ -334,7 +321,6 @@ socket.on('room:replaced', () => {
   state.room = null;
   state.notice = 'replaced';
   closeModal();
-  state.ageModalOpen = false;
   render();
 });
 

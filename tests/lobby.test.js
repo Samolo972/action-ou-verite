@@ -53,10 +53,10 @@ test('max joueurs ne peut pas descendre sous le nombre de joueurs présents', ()
 });
 
 test('le crochet canJoin du jeu peut refuser une arrivée', () => {
-  const lobby = new LobbyManager({ hooks: { canJoin: (room, p) => (p.adult ? null : 'AGE_REQUIRED') } });
-  const { room } = lobby.createRoom('Samuel', { adult: true });
-  assert.equal(lobby.joinRoom(room, 'Inès', {}).error, 'AGE_REQUIRED');
-  assert.ok(lobby.joinRoom(room, 'Inès', { adult: true }).member);
+  const lobby = new LobbyManager({ hooks: { canJoin: (room, p) => (p.invited ? null : 'GAME_IN_PROGRESS') } });
+  const { room } = lobby.createRoom('Samuel', {});
+  assert.equal(lobby.joinRoom(room, 'Inès', {}).error, 'GAME_IN_PROGRESS');
+  assert.ok(lobby.joinRoom(room, 'Inès', { invited: true }).member);
 });
 
 test('reconnexion par token', () => {
